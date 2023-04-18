@@ -19,9 +19,9 @@ const router = createRouter({
   history:createWebHistory() // 没有#号
 })
 // 设置路由守卫
-router.beforeEach((to,from) => {
-  if (to.path != '/user') {
-    return {path:'/user'}
-  }
-})
+// router.beforeEach((to,from) => {
+//   if (to.path != '/user') {
+//     return {path:'/user'}
+//   }
+// })
 export default router
